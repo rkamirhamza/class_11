@@ -1,0 +1,294 @@
+/********************
+	Global CSS
+*********************/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Source Sans 3', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+/*********************************
+  Header Section CSS code start
+**********************************/
+.header-section{
+	padding: 20px 0px;
+	background: url(../img/banner.png); 
+	background-position: center center no-repeat;
+	background-size: cover;
+}
+.logo-part{
+	margin-right: 5px;
+}
+.header-section .nav-link, .header-section .active{
+	color: #fffefe !important;
+	
+}
+
+.header-section .nav-link:hover{
+	background: url(../img/line.png) center bottom no-repeat;
+}
+
+.header-section .content{
+	padding: 130px 0px;
+}
+
+.header-section .content span{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 600;
+}
+
+.header-section .content h1{
+	font-size: 48px;
+	color: #fff;
+	font-weight: 400;
+	padding-right: 32px;
+}
+
+.header-section .content p{
+	font-size: 18px;
+	color: #787879;
+	padding-right: 158px;
+	line-height: 28px;
+}
+
+.header-section .content .double-btn{
+	padding-top:50px ;
+
+}
+
+.header-section .content .double-btn .btn-primary{
+	background: #008ed6 !important;
+	border-radius: 3px !important;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	margin-right: 15px;
+	transition: .5s;
+}
+
+.header-section .content .double-btn .btn-primary:hover{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	color: white;
+	transition: .5s;
+}
+
+.header-section .content .double-btn .btn-info{
+	background: transparent !important;
+	border: 1px solid #787879 !important;
+	border-radius: 3px !important;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	color: white;
+	transition: .5s;
+}
+
+.header-section .content .double-btn .btn-info:hover{
+	background: #008ed6 !important;
+	transition: .5s;
+	border: 1px solid #008ed6;
+}
+
+/*********************************
+  Header Section CSS code end
+**********************************/
+
+
+
+
+
+
+
+/*********************************
+  list CSS code start
+**********************************/
+.list-section{
+ 
+}
+
+.list-section .content{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.list-section .content h6{
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 800;
+	color: #008ed6;
+
+}
+
+.list-section .content h3{
+	font-size: 36px;
+	font-weight: 600;
+
+}
+
+.list-section .content img{
+	
+}
+
+
+.list-section .features{
+	margin-top: 30px;
+	padding: 20px;
+	text-align: center;
+	
+}
+.list-section .features img{
+	margin-left: -40px;
+}
+
+.list-section .features h4{
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 20px;
+	text-transform: capitalize;
+	color: #1a1a1a;
+	margin-left: -45px;
+}
+
+.list-section .features p{
+	font-size: 18px;
+	color: #999999;
+	margin-right: 35px;
+}
+/*********************************
+  Feature Section CSS code end
+**********************************/
+
+
+
+
+
+
+
+
+/*********************************
+  mobile-section  CSS code start
+**********************************/
+.mobile-section{
+	margin-top: 90px;
+
+
+}
+
+
+
+.mobile-section .content{
+
+}
+
+.mobile-section .content h6{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 800;
+	letter-spacing: px;
+}
+
+.mobile-section .content h3{
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.mobile-section .content img{
+
+}
+
+.mobile-section .content p{
+  margin-right: 220px;
+  margin-top: 20px;
+  color: #999999;
+}
+
+.mobile-section .content ul{
+ margin-top: 30px;
+}
+
+.mobile-section .content ul li{
+
+}
+
+.mobile-section .content ul li img{
+	width: 16px;
+	margin-right: 10px;
+}
+/*********************************
+  mobile-section CSS code end
+**********************************/
+
+
+
+
+
+
+
+/*********************************
+  Super Section CSS code start
+**********************************/
+.super-section{
+	margin-top: 30px;
+	background: #f2f2f2;
+
+}
+
+.super-section .phone img{
+	width: 100%;
+	margin-left: -150px;
+}
+.super-section .content h6{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #008ed6;
+	font-weight: 800;
+	letter-spacing: 1px;
+	margin-top: 70px;
+	margin-bottom: 10px;
+}
+
+.super-section .content h3{
+	color: #1a1a1a;
+	margin-bottom: 10px;
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.super-section .content p{
+	margin-right: 150px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #999999;	
+}
+
+.super-section{
+	
+}
